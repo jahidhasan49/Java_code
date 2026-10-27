@@ -31,5 +31,7 @@ public class Human extends Animal{
         this.gender = gender;
     }
 
-    //TODO: Override Animal's eat()
+     public void eat() {
+        System.out.println("The human is eating...");
+    }
 }
